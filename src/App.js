@@ -5,7 +5,8 @@ export default function App() {
   const [answer, setAnswer] = useState("");
   const [input, setInput] = useState("");
   const luhnFunction = (value) => {
-    if (value.length < 10) return "false";
+    if(value.length === 0) return ""
+    if (value.length > 0 && value.length < 10) return "false";
     let num = value.split("").reverse();
     for (let i = 0; i < num.length; i++) {
       if (i % 2 !== 0) {

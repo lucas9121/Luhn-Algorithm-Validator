@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+.App {
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+}
