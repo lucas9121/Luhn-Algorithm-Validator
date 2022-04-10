@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./style.css";
 import { useEffect, useState } from "react";
 
 export default function App() {
