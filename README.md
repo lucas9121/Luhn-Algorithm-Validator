@@ -1,5 +1,4 @@
-# Luhn Algorithm Validator
-used react-app to create a simple creadit card checker
+# [Luhn Algorithm Validator](https://creaditcard-validator.netlify.app)
 
-## Link
-https://creaditcard-validator.netlify.app
+simple credit card checker built with React framework
+
